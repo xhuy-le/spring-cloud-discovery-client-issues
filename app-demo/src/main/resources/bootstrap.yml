@@ -7,9 +7,6 @@ eureka:
 spring:
   application:
     name: "app-demo"
-  config:
-    import:
-      - "optional:configserver:"
   cloud:
     consul:
       enabled: false
